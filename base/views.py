@@ -29,3 +29,6 @@ def Home(request):
 
 def Html(request):
     return render(request, "Html.html")
+
+def datascience(request):
+    return render(request, "datascience.html")
